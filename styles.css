@@ -78,7 +78,7 @@ span {
         width: 90%;
         height: auto;
         border-radius: 10px;
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
     }
     #right {
         grid-area: 1 / 1 / 2 / 2;
